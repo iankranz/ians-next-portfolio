@@ -1,0 +1,26 @@
+.navOption {
+  font-weight: 700;
+  list-style-type: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  border: 2px solid transparent;
+}
+
+.navOption:hover {
+  border: 2px solid #03432e;
+  transition: 0.2s;
+  box-shadow: -4px 4px #03432e;
+  transform: translate(2px, -2px);
+}
+
+.selectedNavOption {
+  font-weight: 700;
+  list-style-type: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  border: 2px solid transparent;
+  border: 2px solid #03432e;
+  box-shadow: -4px 4px #03432e;
+}

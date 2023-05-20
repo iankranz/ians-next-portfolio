@@ -18,23 +18,23 @@ export default function Home() {
         <p>
           You&apos;ll notice that I start lots of projects, and they&apos;re not
           all code related. A lot of my current projects are
-          programming-adjacent. For example, I started a podcast called
+          programming-adjacent. For example, I started a podcast called&nbsp;
           <a
             href="https://www.youtube.com/channel/UCxT9KWCmrCJYW_OHKATmp9A"
             target="_blank"
           >
             Greenpoint Dev
           </a>
-          where I and co-host
+          &nbsp;where I and co-host&nbsp;
           <a href="https://nikhildhawan.com/" target="_blank">
             Nikhil Dhawan
           </a>
-          discuss a variety of topics in software engineering. I&apos;ve also
-          been at work writing for
+          &nbsp;discuss a variety of topics in software engineering. I&apos;ve
+          also been at work writing for&nbsp;
           <a href="https://lgtm.beehiiv.com/" target="_blank">
             a newsletter called LGTM
           </a>
-          that delivers weekly tech news but not the boring kind.
+          &nbsp;that delivers weekly tech news but not the boring kind.
         </p>
 
         <p>
@@ -55,16 +55,20 @@ export default function Home() {
         </p>
 
         <p>
-          You can learn more about the site by looking through the code in
-          <a href="https://github.com/iankranz/ians-portfolio" target="_blank">
+          You can learn more about the site by looking through the code in&nbsp;
+          <a
+            href="https://github.com/iankranz/ians-next-portfolio"
+            target="_blank"
+          >
             my portfolio GitHub repository
           </a>
-          . If you want to stay in touch, I write a
+          . If you want to stay in touch, I write a&nbsp;
           <a href="https://iankranz.substack.com/" target="_blank">
             monthly newsletter
           </a>
-          that gives updates on what I&apos;ve been up to. Subscribe for a quick
-          and interesting read every month. Anyways, I hope you enjoy my site!
+          &nbsp;that gives updates on what I&apos;ve been up to. Subscribe for a
+          quick and interesting read every month. Anyways, I hope you enjoy my
+          site!
         </p>
       </main>
       <Footer />

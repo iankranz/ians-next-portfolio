@@ -1,40 +1,31 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import Link from "next/link";
+import NavOption from "./NavOption";
+import styles from "@/components/Header.module.css";
 export default function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <Link href="/">
         <Image
           alt="I icon"
-          className="logo"
+          className={styles.logo}
           src="/ian-logo.png"
           width={300}
           height={300}
         />
       </Link>
-      <span className="my-name">Ian Kranz</span>
+      <span className={styles.myName}>Ian Kranz</span>
       <span>Software Engineer</span>
-      <nav className="nav-option-list">
-        <Link href="/" className="nav-option">
-          Home
-        </Link>
-        <Link href="/about" className="nav-option">
-          About
-        </Link>
-        <Link href="/projects" className="nav-option">
-          Projects
-        </Link>
-        <Link
-          href="https://iankranz.substack.com/"
-          target="_blank"
-          className="nav-option"
-        >
+      <nav className={styles.navOptionList}>
+        <NavOption path="/">Home</NavOption>
+        <NavOption path="/about">About</NavOption>
+        <NavOption path="/projects">Projects</NavOption>
+        <NavOption path="https://iankranz.substack.com/" target="_blank">
           Newsletter
-        </Link>
-        <Link href="/resume.pdf" target="_blank" className="nav-option">
+        </NavOption>
+        <NavOption path="/resume.pdf" target="_blank">
           R&eacute;sum&eacute;
-        </Link>
+        </NavOption>
       </nav>
     </header>
   );

@@ -1,10 +1,9 @@
 import "./globals.css";
-import Link from "next/link";
-import Image from "next/image";
 
 export const metadata = {
-  title: "IanKranz.com",
-  description: "A portfolio site for Ian Kranz",
+  title: "Ian Kranz",
+  description:
+    "A wonderful portfolio site created by Ian Kranz. Come learn about Ian and discover what he's been up to",
 };
 
 export default function RootLayout({

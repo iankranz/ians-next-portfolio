@@ -31,7 +31,7 @@ export default function Home() {
           </p>
         </section>
         <section id="feature-card">
-          <Link href="https://www.youtube.com/@greenpoint_dev" target="_blank">
+          <Link href="https://piggyarns.com/funnymaker" target="_blank">
             <Image
               alt="Arns the pig saying you had me at toe fungus"
               src="/pig.jpg"
