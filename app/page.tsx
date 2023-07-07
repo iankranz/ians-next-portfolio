@@ -1,7 +1,7 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Image from "next/image";
-import Link from "next/link";
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -10,19 +10,22 @@ export default function Home() {
       <main>
         <h1>Featured activity</h1>
         <section id="feature-card">
-          <Link href="https://iankranz.substack.com/" target="_blank">
+          <Link
+            href="https://iankranz.substack.com/p/wedding-alaska-video-content"
+            target="_blank"
+          >
             <Image
               alt="A portrait of Ian holding a toddler"
-              src="/cover.jpg"
+              src="/cover.png"
               width={600}
               height={600}
             />
           </Link>
           <Link
-            href="https://iankranz.substack.com/p/fun-for-the-whole-family"
+            href="https://iankranz.substack.com/p/wedding-alaska-video-content"
             target="_blank"
           >
-            <h2>Ian&apos;s Newsletter April Edition is live!</h2>
+            <h2>New release: Read my latest newsletter!</h2>
           </Link>
           <p>
             Head over to my substack where I ship my monthly newsletter.
@@ -50,5 +53,5 @@ export default function Home() {
       </main>
       <Footer />
     </>
-  );
+  )
 }
