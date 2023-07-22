@@ -1,6 +1,6 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Image from "next/image";
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
             />
           </a>
           <a href="https://piggyarns.com/funnymaker" target="_blank">
-            <h2>The Funnymaker</h2>
+            <h2>Joke Generator</h2>
           </a>
           <p>
             This web app takes your name as input and fetches a unique funny
@@ -47,5 +47,5 @@ export default function Home() {
       </main>
       <Footer />
     </>
-  );
+  )
 }
