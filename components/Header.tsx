@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
-import NavOption from "./NavOption";
-import styles from "@/components/Header.module.css";
+import Image from "next/image"
+import Link from "next/link"
+import NavOption from "./NavOption"
+import styles from "@/components/Header.module.css"
 export default function Header() {
   return (
     <header className={styles.header}>
@@ -20,13 +20,10 @@ export default function Header() {
         <NavOption path="/">Home</NavOption>
         <NavOption path="/about">About</NavOption>
         <NavOption path="/projects">Projects</NavOption>
-        <NavOption path="https://iankranz.substack.com/" target="_blank">
-          Newsletter
-        </NavOption>
         <NavOption path="/resume.pdf" target="_blank">
           R&eacute;sum&eacute;
         </NavOption>
       </nav>
     </header>
-  );
+  )
 }

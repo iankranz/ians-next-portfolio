@@ -1,7 +1,6 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import Image from "next/image"
-import Link from "next/link"
 
 export default function Home() {
   return (
@@ -10,36 +9,35 @@ export default function Home() {
       <main>
         <h1>My Projects</h1>
         <section id="feature-card">
-          <a href="https://dewdayte.com" target="_blank">
-            <Image
-              alt="A phone with dewdayte pulled up"
-              src="/dewdayte.png"
-              width={600}
-              height={600}
-            />
-          </a>
-          <a href="https://dewdayte.com" target="_blank">
-            <h2>dewdayte</h2>
-          </a>
-          <p>
-            Built with React using Next.js, dewdayte is a web app for tracking
-            your tasks. Not only is it an awesome example of a full-stack
-            application, it&apos;s a great way to stay organized and get things
-            done.
-          </p>
-        </section>
-        <section id="feature-card">
-          <Link href="/projects/funnymaker">
+          <a href="https://piggyarns.com/funnymaker" target="_blank">
             <Image
               alt="A hand-drawn graphic of a cartoon pig"
               src="/arns.jpg"
               width={600}
               height={600}
             />
-          </Link>
-          <Link href="/projects/funnymaker">
-            <h2>The funnymaker</h2>
-          </Link>
+          </a>
+          <a href="https://piggyarns.com/funnymaker" target="_blank">
+            <h2>The Funnymaker</h2>
+          </a>
+          <p>
+            This web app takes your name as input and fetches a unique funny
+            sentence for you. Front end app created with Vue.js and backend
+            using Django and a PostgreSQL database.
+          </p>
+        </section>
+        <section id="feature-card">
+          <a href="https://piggyarns.com/funnymaker" target="_blank">
+            <Image
+              alt="A hand-drawn graphic of a cartoon pig"
+              src="/arns.jpg"
+              width={600}
+              height={600}
+            />
+          </a>
+          <a href="https://piggyarns.com/funnymaker" target="_blank">
+            <h2>The Funnymaker</h2>
+          </a>
           <p>
             This web app takes your name as input and fetches a unique funny
             sentence for you. Front end app created with Vue.js and backend

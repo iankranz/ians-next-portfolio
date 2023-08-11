@@ -10,44 +10,39 @@ export default function Home() {
       <main>
         <h1>Featured activity</h1>
         <section id="feature-card">
-          <Link
-            href="https://iankranz.substack.com/p/wedding-alaska-video-content"
-            target="_blank"
-          >
+          <Link href="https://dewdayte.com" target="_blank">
             <Image
-              alt="A portrait of Ian holding a toddler"
-              src="/cover.png"
+              alt="A phone with the dewdayte app pulled up"
+              src="/dewdayte.png"
               width={600}
               height={600}
             />
           </Link>
-          <Link
-            href="https://iankranz.substack.com/p/wedding-alaska-video-content"
-            target="_blank"
-          >
-            <h2>New release: Read my latest newsletter!</h2>
+          <Link href="https://dewdayte.com" target="_blank">
+            <h2>New project is live!</h2>
           </Link>
           <p>
-            Head over to my substack where I ship my monthly newsletter.
-            It&apos;s full of fun pictures and tid bits of what I&apos;ve been
-            up to.
+            I build a web application for tracking tasks. It&apos;s called
+            dewdayte, and it might just help you become more productive. Try it
+            out!
           </p>
         </section>
         <section id="feature-card">
-          <Link href="https://piggyarns.com/funnymaker" target="_blank">
+          <Link href="/projects/funnymaker">
             <Image
               alt="Arns the pig saying you had me at toe fungus"
-              src="/pig.jpg"
+              src="/pig-proj.jpg"
               width={600}
               height={600}
             />
           </Link>
-          <Link href="https://piggyarns.com/funnymaker" target="_blank">
-            <h2>This pig will tell you jokes</h2>
+          <Link href="/projects/funnymaker">
+            <h2>Read about this past project</h2>
           </Link>
           <p>
-            This little web application I made generated inappropriate jokes.
-            Think Cards Against Humanity but with a pig.
+            I recently wrote synopsis of a project I did a year ago. It dives
+            into the technical implementation of my joke app: the funnymaker
+            funny
           </p>
         </section>
       </main>

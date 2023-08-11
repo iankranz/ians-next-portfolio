@@ -1,0 +1,37 @@
+.about {
+  padding: 0;
+}
+
+.about ul {
+  width: 100%;
+}
+
+.about p {
+  width: 100%;
+}
+
+.about h2 {
+  width: 100%;
+}
+
+.about li {
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .about ul {
+    width: 40rem;
+  }
+
+  .about p {
+    width: 40rem;
+  }
+
+  .about h2 {
+    width: 40rem;
+  }
+
+  .about li {
+    padding-right: 0rem;
+  }
+}

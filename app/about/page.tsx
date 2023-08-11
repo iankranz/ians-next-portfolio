@@ -1,13 +1,14 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import styles from "./page.module.css"
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className={styles.about}>
         <h1>About Ian</h1>
-        <p>Here are a few things about me:</p>
+        <h2>Here are a few things about me:</h2>
         <ul>
           <li>I&apos;m a software engineer based in Brooklyn, NY</li>
           <li>
@@ -22,7 +23,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <p>About my work:</p>
+        <h2>About my work:</h2>
         <ul>
           <li>
             I like to build websites, everything from blogs to sites with fancy
@@ -50,7 +51,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <p>About my interests:</p>
+        <h2>About my interests:</h2>
         <ul>
           <li>
             I have a personal newsletter that I send out every month. In it, I

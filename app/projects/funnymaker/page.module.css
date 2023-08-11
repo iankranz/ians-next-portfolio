@@ -1,0 +1,51 @@
+.funnymaker h1 {
+  margin-bottom: 0.5rem;
+}
+
+.funnymaker h2 {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.funnymaker h3 {
+  width: 100%;
+  text-align: start;
+}
+
+.funnymaker h4 {
+  width: 100%;
+  text-align: start;
+}
+
+.funnymaker a {
+  color: #03432e;
+}
+
+@media screen and (min-width: 768px) {
+  .funnymaker h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .funnymaker h2 {
+    font-weight: 100;
+    font-size: 1rem;
+  }
+
+  .funnymaker h3 {
+    width: 40rem;
+    text-align: start;
+  }
+
+  .funnymaker h4 {
+    width: 40rem;
+    text-align: start;
+  }
+
+  .funnymaker p {
+    width: 40rem;
+  }
+}
+
+.trylink {
+  margin-bottom: 3rem;
+}
