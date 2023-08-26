@@ -10,7 +10,7 @@ export default function Home() {
       <main>
         <h1>My Projects</h1>
         <section id="feature-card">
-          <a href="https://dewdayte.com" target="_blank">
+          <a href="/projects/dewdayte">
             <Image
               alt="A phone with dewdayte pulled up"
               src="/dewdayte.png"
@@ -18,7 +18,7 @@ export default function Home() {
               height={600}
             />
           </a>
-          <a href="https://dewdayte.com" target="_blank">
+          <a href="/projects/dewdayte">
             <h2>dewdayte</h2>
           </a>
           <p>

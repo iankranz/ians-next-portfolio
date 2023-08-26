@@ -10,7 +10,7 @@ export default function Home() {
       <main>
         <h1>Featured activity</h1>
         <section id="feature-card">
-          <Link href="https://dewdayte.com" target="_blank">
+          <Link href="/projects/dewdayte">
             <Image
               alt="A phone with the dewdayte app pulled up"
               src="/dewdayte.png"
@@ -18,7 +18,7 @@ export default function Home() {
               height={600}
             />
           </Link>
-          <Link href="https://dewdayte.com" target="_blank">
+          <Link href="/projects/dewdayte">
             <h2>New project is live!</h2>
           </Link>
           <p>
