@@ -20,7 +20,7 @@ export default function Header() {
         <NavOption path="/">Home</NavOption>
         <NavOption path="/about">About</NavOption>
         <NavOption path="/projects">Projects</NavOption>
-        <NavOption path="/resume.pdf" target="_blank">
+        <NavOption path="/ian-kranz-resume.pdf" target="_blank">
           R&eacute;sum&eacute;
         </NavOption>
       </nav>

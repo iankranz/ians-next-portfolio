@@ -14,7 +14,7 @@ export default function Home() {
           Full-stack software engineer with 2 YOE seeking new role
         </h2>
         <div className={styles.resumeBlock}>
-          <a href="/resume.pdf">View r&eacute;sum&eacute;</a>
+          <a href="/ian-kranz-resume.pdf">View r&eacute;sum&eacute;</a>
         </div>
         <p>
           With 2 years of professional software development experience and 4
