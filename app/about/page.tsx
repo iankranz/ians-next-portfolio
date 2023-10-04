@@ -9,9 +9,9 @@ export default function Home() {
       <main className={styles.about}>
         <h1>About</h1>
         <p>
-          Ian Kranz is a Software Engineer based in Brooklyn, NY. He studied
-          Electrical and Computer Engineering at Cornell Univestity. He now
-          specializes in front-end web technologies.
+          Ian Kranz is a full stack Software Engineer based in Brooklyn, NY. He
+          studied Electrical and Computer Engineering at Cornell Univestity. He
+          now specializes in front-end web technologies.
         </p>
 
         <h2>About my career:</h2>
