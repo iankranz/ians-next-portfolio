@@ -7,23 +7,14 @@ export default function Home() {
     <>
       <Header />
       <main className={styles.about}>
-        <h1>About Ian</h1>
-        <h2>Here are a few things about me:</h2>
-        <ul>
-          <li>I&apos;m a software engineer based in Brooklyn, NY</li>
-          <li>
-            I work for a startup that provides tools for interior designers. I
-            build new features and maintain the application along with a team of
-            engineers.
-          </li>
-          <li>
-            I&apos;m interested in a lot of things, but, to list a few, I like:
-            writing (creative writing and blogging), playing board games/video
-            games, traveling, playing tennis, and learning new things.
-          </li>
-        </ul>
+        <h1>About</h1>
+        <p>
+          Ian Kranz is a Software Engineer based in Brooklyn, NY. He studied
+          Electrical and Computer Engineering at Cornell Univestity. He now
+          specializes in front-end web technologies.
+        </p>
 
-        <h2>About my work:</h2>
+        <h2>About my career:</h2>
         <ul>
           <li>
             I like to build websites, everything from blogs to sites with fancy
@@ -77,8 +68,8 @@ export default function Home() {
             business and statistics.
           </li>
           <li>
-            I&apos;m also in the process of starting a little YouTube show where
-            I interview people about their careers. More to come on that!
+            I&apos;m also starting to get into content creation. I&apos;ve been
+            working on videos and uploading them to my YouTube channel.
           </li>
         </ul>
       </main>
