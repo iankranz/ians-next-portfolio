@@ -13,7 +13,6 @@ export default function Home() {
           studied Electrical and Computer Engineering at Cornell Univestity. He
           now specializes in front-end web technologies.
         </p>
-
         <h2>About my career:</h2>
         <ul>
           <li>

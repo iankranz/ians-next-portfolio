@@ -17,25 +17,22 @@ export default function Home() {
           <a href="/ian-kranz-resume.pdf">View r&eacute;sum&eacute;</a>
         </div>
         <p>
-          With 2 years of professional software development experience and 4
-          total years of professional experience, I am now seeking a new
-          Software Engineer role.
+          After nearly two years of working for a startup, I&apos;ve developed a
+          knack for working cross-functionally with product and design teams to
+          hit deadlines and meet business goals.
         </p>
         <p>
-          Since pivoting into the tech industry, I have grown at an accelerated
-          rate, quickly becoming a full stack engineer and a domain expert in
-          front-end development, earning the respect of my senior colleagues.
+          I enjoy developing myself as a professional engineer, and that&apos;s
+          why I&apos;ve picked up experience across the stack, doing detailed
+          work with Vue, React, Next.js, Express, and PostgreSQL.
         </p>
         <p>
-          From working closely with product managers, designers, and engineers I
-          have learned both how to write great code and how to thrive in a
-          product-focused business environment.
-        </p>
-        <p>
-          If you are looking to hire a young and talented engineer who is eager
-          to provide value, reach out to me at{" "}
+          I&apos;m now seeking a new engineering role, and I&apos;m eager to
+          bring my skills to a new team and make an impact. To discuss
+          opportunities, reach out to me at{" "}
           <a href="mailto:ian@iankranz.com">ian@iankranz.com</a>
         </p>
+        <p></p>
         <h1>Recent projects</h1>
         <section id="feature-card">
           <Link href="/projects/dewdayte">
