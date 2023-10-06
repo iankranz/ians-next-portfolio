@@ -9,10 +9,9 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <h1>Recent activity</h1>
-        <h2 className={styles.objectiveStatement}>
+        <h1 className={styles.objectiveStatement}>
           Full-stack software engineer with 2 YOE seeking new role
-        </h2>
+        </h1>
         <div className={styles.resumeBlock}>
           <a href="/ian-kranz-resume.pdf">View r&eacute;sum&eacute;</a>
         </div>

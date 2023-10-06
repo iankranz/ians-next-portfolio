@@ -3,5 +3,11 @@
 }
 
 .objectiveStatement {
-  width: 30rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .objectiveStatement {
+    width: 30rem;
+  }
 }
