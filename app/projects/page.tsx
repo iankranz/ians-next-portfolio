@@ -29,6 +29,24 @@ export default function Home() {
           </p>
         </section>
         <section id="feature-card">
+          <Link href="https://startupnichefactor.com/">
+            <Image
+              alt="A screenshot of a website"
+              src="/nichefactor.png"
+              width={600}
+              height={600}
+            />
+          </Link>
+          <Link href="https://startupnichefactor.com/">
+            <h2>Startup Niche Factor</h2>
+          </Link>
+          <p>
+            A website for rating startups. The application is driven by a
+            Postgres database and Django backend. The front-end was created with
+            React.
+          </p>
+        </section>
+        <section id="feature-card">
           <Link href="/projects/funnymaker">
             <Image
               alt="A hand-drawn graphic of a cartoon pig"

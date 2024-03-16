@@ -9,35 +9,31 @@ export default function Home() {
       <main className={styles.about}>
         <h1>About</h1>
         <p>
-          Ian Kranz is a full stack Software Engineer based in Brooklyn, NY. He
-          studied Electrical and Computer Engineering at Cornell Univestity. He
-          now specializes in front-end web technologies.
+          My name is Ian Kranz, and I am a full-stack software engineer based in
+          Brooklyn, NY. I studied Electrical and Computer Engineering at Cornell
+          Univestity. Today, I work full-time as a software engineer with much
+          of my work focusing on front-end development.
         </p>
         <h2>About my career:</h2>
         <ul>
           <li>
-            I like to build websites, everything from blogs to sites with fancy
-            3D rendering. Getting into software development was a great decision
-            for me.
+            I like to build websites and software applications, everything from
+            simple blog sites to data intensive web services. I got into
+            software development a few years ago and haven&apos;t looked back.
           </li>
           <li>
-            The main reason I like developing for the web is because software
-            can do a lot of cool stuff like make your life easier, entertain
-            you, and connect you with new people.
+            Some of the main technologies I&apos;ve become familiar with and
+            enjoy using in software development are JavaScript, ReactJS, NodeJS,
+            Java, Spring Boot, PostgreSQL, and AWS.
           </li>
           <li>
-            I like to take on new projects, especially when they involve
-            collaboration. Working with others is great for learning new things.
+            Collaboartion is an important part of my working process.
+            Communication clearly, calling out issues early, and establishing
+            productive norms are things I consider when taking on projects.
           </li>
           <li>
             I&apos;m naturally a hard worker. When I put my mind to something, I
             get it done. It&apos;s one of my biggest strengths.
-          </li>
-          <li>
-            As a generalist on most projects, I get to work with all parts of
-            the web: client-side code in the browser, servers, databases. I
-            really enjoy learning about all these different areas and seeing web
-            applications as a whole.
           </li>
         </ul>
 
@@ -51,9 +47,7 @@ export default function Home() {
           <li>
             I enjoy a nice challenge, so I find games to be quite fun. I like
             the process of strategizing when trying to win a card game, board
-            game, or video game. A couple of games I like are: Finding Friends
-            (Zhao Pengyou, a Chinese card game), Risk, Dungeons and Dragons, and
-            League of Legends.
+            game, or video game.
           </li>
           <li>
             Within the past year, I&apos;ve picked up tennis as a hobby.
@@ -63,12 +57,8 @@ export default function Home() {
           <li>
             In general, I enjoy stuff that is educational. I like going to
             museums and historical sites. I also like to read up on topics that
-            seem interesting and useful. Recently, I&apos;ve been reading about
-            business and statistics.
-          </li>
-          <li>
-            I&apos;m also starting to get into content creation. I&apos;ve been
-            working on videos and uploading them to my YouTube channel.
+            spark my interest. Recently, I&apos;ve been reading about film
+            editing.
           </li>
         </ul>
       </main>

@@ -8,65 +8,60 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
-        <h1 className={styles.objectiveStatement}>
-          Full-stack software engineer with 2 YOE seeking new role
-        </h1>
+      <main className={styles.main}>
+        <h1 className={styles.objectiveStatement}>Welcome!</h1>
+        <p>
+          Thank you for visiting my site, a place where you can learn more about
+          me, both personally and professionally. You can get a good idea of
+          where I am at in my career by looking at my r&eacute;sum&eacute;.
+        </p>
         <div className={styles.resumeBlock}>
-          <a href="/ian-kranz-resume.pdf">View r&eacute;sum&eacute;</a>
+          <a href="/ian-kranz-resume.pdf">View my r&eacute;sum&eacute;</a>
         </div>
         <p>
-          After nearly two years of working for a startup, I&apos;ve developed a
-          knack for working cross-functionally with product and design teams to
-          hit deadlines and meet business goals.
+          If you&apos;re looking to get a more hollistic view, the About and
+          Projects sections provide some info about things I do outside of work.
+          Just looking to browse? Below is a list of some of my recent endevours
+          that I update semi-regularly.
         </p>
         <p>
-          I enjoy developing myself as a professional engineer, and that&apos;s
-          why I&apos;ve picked up experience across the stack, doing detailed
-          work with Vue, React, Next.js, Express, and PostgreSQL.
+          I hope you find what you&apos;re looking for! Please feel free to
+          reach out with any questions via the contact info on my
+          r&eacute;sum&eacute;.
         </p>
-        <p>
-          I&apos;m now seeking a new engineering role, and I&apos;m eager to
-          bring my skills to a new team and make an impact. To discuss
-          opportunities, reach out to me at{" "}
-          <a href="mailto:ian@iankranz.com">ian@iankranz.com</a>
-        </p>
-        <p></p>
-        <h1>Recent projects</h1>
+        <h1 className={styles.recentActivity}>Recent activity</h1>
         <section id="feature-card">
-          <Link href="/projects/dewdayte">
+          <Link href="https://linkedin.com/in/iankranz">
             <Image
-              alt="A phone with the dewdayte app pulled up"
-              src="/dewdayte.png"
+              alt="A picture of a man in a collared shirt"
+              src="/ian.png"
               width={600}
               height={600}
             />
           </Link>
-          <Link href="/projects/dewdayte">
-            <h2>New project is live!</h2>
+          <Link href="https://linkedin.com/in/iankranz">
+            <h2>New career update</h2>
           </Link>
           <p>
-            I build a web application for tracking tasks. It&apos;s called
-            dewdayte, and it might just help you become more productive. Try it
-            out!
+            I just recently started in a new software engineering role. You can
+            see more on my LinkedIn page!
           </p>
         </section>
         <section id="feature-card">
           <Link href="/projects/funnymaker">
             <Image
               alt="Arns the pig saying you had me at toe fungus"
-              src="/pig-proj.jpg"
+              src="/nichefactor.png"
               width={600}
               height={600}
             />
           </Link>
           <Link href="/projects/funnymaker">
-            <h2>Read about this past project</h2>
+            <h2>More Projects Added</h2>
           </Link>
           <p>
-            I recently wrote synopsis of a project I did a year ago. It dives
-            into the technical implementation of my joke app: the funnymaker
-            funny
+            You can now see more of the software projects that I&apos;ve built
+            by heading over to the projects section.
           </p>
         </section>
       </main>

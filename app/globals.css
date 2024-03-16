@@ -28,8 +28,8 @@ main {
 main #feature-card {
   background-color: #f1f2f3;
   border-radius: 4px;
-  box-shadow: -16px 16px #03432e;
-  border: 2px solid #03432e;
+  box-shadow: -16px 16px #212121;
+  border: 2px solid #212121;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ main #feature-card {
   margin-bottom: 3rem;
 }
 main #feature-card:hover {
-  box-shadow: -24px 24px #03432e;
+  box-shadow: -24px 24px #212121;
   transition: 0.5s;
   transform: translate(5px, -5px);
 }
@@ -93,5 +93,7 @@ main a {
 }
 
 main a:hover {
-  color: #03432e;
+  color: #212121;
 }
+
+/* #03432e is a good color to use if i get tired of black */

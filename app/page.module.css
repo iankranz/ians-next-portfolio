@@ -1,13 +1,29 @@
 .resumeBlock {
   margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.resumeBlock a {
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .objectiveStatement {
   width: 100%;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
   .objectiveStatement {
     width: 30rem;
   }
+}
+
+.main {
+  margin-top: 1rem;
+}
+
+.recentActivity {
+  margin-top: 3rem;
 }
